@@ -1,4 +1,4 @@
-def square_array(array)
-  new_array = array.each{|x| return x ** 2}
+def square_array(numbers)
+  new_array = numbers.each{|x| return x ** 2}
   return [new_array]
 end
