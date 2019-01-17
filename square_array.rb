@@ -1,4 +1,3 @@
 def square_array(numbers)
-  numbers.each do |x|
-  return x ** 2
+  new_array = numbers.each{|x| == x **2}
 end
